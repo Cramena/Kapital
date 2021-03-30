@@ -4,7 +4,7 @@ using UnityEngine;
 using System.Linq;
 using UnityEngine.UI;
 
-public class Stock : MonoBehaviour
+public class Stock : UIOwner
 {
     public Transform canvas;
     public int id;

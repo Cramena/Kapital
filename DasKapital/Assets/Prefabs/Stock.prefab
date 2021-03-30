@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -89,8 +89,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stockID: 0
+  owner: {fileID: 0}
   rect: {fileID: 0}
   loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &705929132118686443
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,7 +159,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -180,8 +182,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stockID: 0
+  owner: {fileID: 0}
   rect: {fileID: 0}
   loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &865755780624947958
 GameObject:
   m_ObjectHideFlags: 0
@@ -248,7 +252,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -271,8 +275,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stockID: 0
+  owner: {fileID: 0}
   rect: {fileID: 0}
   loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &910688102918321934
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,7 +345,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -362,8 +368,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stockID: 0
+  owner: {fileID: 0}
   rect: {fileID: 0}
   loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &1103992064197519480
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,7 +438,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -453,8 +461,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stockID: 0
+  owner: {fileID: 0}
   rect: {fileID: 0}
   loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &1811331000356149741
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,7 +531,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -544,8 +554,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stockID: 0
+  owner: {fileID: 0}
   rect: {fileID: 0}
   loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &2999139944201977157
 GameObject:
   m_ObjectHideFlags: 0
@@ -612,7 +624,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -635,8 +647,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stockID: 0
+  owner: {fileID: 0}
   rect: {fileID: 0}
   loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &3386655711786948127
 GameObject:
   m_ObjectHideFlags: 0
@@ -703,7 +717,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -726,8 +740,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stockID: 0
+  owner: {fileID: 0}
   rect: {fileID: 0}
   loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &3554804413434406442
 GameObject:
   m_ObjectHideFlags: 0
@@ -794,7 +810,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -817,8 +833,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stockID: 0
+  owner: {fileID: 0}
   rect: {fileID: 0}
   loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &3592684114440105393
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,7 +903,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -908,8 +926,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stockID: 0
+  owner: {fileID: 0}
   rect: {fileID: 0}
   loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &5880580542299474276
 GameObject:
   m_ObjectHideFlags: 0
@@ -976,7 +996,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -999,8 +1019,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stockID: 0
+  owner: {fileID: 0}
   rect: {fileID: 0}
   loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &6201303278891595344
 GameObject:
   m_ObjectHideFlags: 0
@@ -1067,7 +1089,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1090,8 +1112,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stockID: 0
+  owner: {fileID: 0}
   rect: {fileID: 0}
   loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &6419433022070387711
 GameObject:
   m_ObjectHideFlags: 0
@@ -1158,7 +1182,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1181,8 +1205,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stockID: 0
+  owner: {fileID: 0}
   rect: {fileID: 0}
   loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &6668701514387221588
 GameObject:
   m_ObjectHideFlags: 0
@@ -1249,7 +1275,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1272,8 +1298,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stockID: 0
+  owner: {fileID: 0}
   rect: {fileID: 0}
   loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &6988661978030477894
 GameObject:
   m_ObjectHideFlags: 0
@@ -1343,9 +1371,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4e21ef6f0cf6da4bb3ed264ca029a71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  available: 1
   canvas: {fileID: 0}
   id: 0
-  commodities: []
   spawnTargets:
   - {fileID: 1145029868233557532}
   - {fileID: 2263449722214783231}
@@ -1494,7 +1522,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1517,8 +1545,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stockID: 0
+  owner: {fileID: 0}
   rect: {fileID: 0}
   loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &7100316734135329669
 GameObject:
   m_ObjectHideFlags: 0
@@ -1585,7 +1615,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1608,8 +1638,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stockID: 0
+  owner: {fileID: 0}
   rect: {fileID: 0}
   loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &7255678681978066964
 GameObject:
   m_ObjectHideFlags: 0
@@ -1676,7 +1708,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1699,8 +1731,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stockID: 0
+  owner: {fileID: 0}
   rect: {fileID: 0}
   loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &8813868579608044988
 GameObject:
   m_ObjectHideFlags: 0
@@ -1767,7 +1801,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1790,5 +1824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stockID: 0
+  owner: {fileID: 0}
   rect: {fileID: 0}
   loadedCommodity: {fileID: 0}
+  highlighted: 1

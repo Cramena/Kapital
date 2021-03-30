@@ -31,6 +31,7 @@ public class CommodityProfile
     }
     public CommodityProfile(CommodityProfile _profile)
     {
+        type = _profile.type;
         commodityName = _profile.commodityName;
         exchangeValue = _profile.exchangeValue;
         useValue = _profile.useValue;
@@ -45,6 +46,7 @@ public class CommodityProfile
     }
     public CommodityProfile(CommoditySO _type)
     {
+        type = _type;
         commodityName = _type.commodityName;
         exchangeValue = _type.exchangeValue;
         useValue = _type.useValue;
@@ -58,6 +60,7 @@ public class CommodityProfile
         color = _type.color;
     }
 
+    public CommoditySO type;
     public string commodityName;
     public int exchangeValue;
     public UseValue useValue;

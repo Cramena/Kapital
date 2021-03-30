@@ -33,7 +33,6 @@ public class Worker : MonoBehaviour
 
     void PopWorkForce()
     {
-
         Commodity spawnedWorkforce = workforces.Dequeue();
         spawnedWorkforce.gameObject.SetActive(true);
         if (workforces.Count < 5) ReplenishPool();

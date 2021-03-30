@@ -88,6 +88,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194e1d8789a86524b900d1200b9db33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stockID: 0
+  owner: {fileID: 0}
+  rect: {fileID: 0}
+  loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &470154981509500515
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,6 +194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f244738f578a9b843b572364456ff570, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  available: 1
 --- !u!114 &6067922254342570414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -307,6 +313,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194e1d8789a86524b900d1200b9db33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stockID: 0
+  owner: {fileID: 0}
+  rect: {fileID: 0}
+  loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &1283635606687321735
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,6 +406,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194e1d8789a86524b900d1200b9db33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stockID: 0
+  owner: {fileID: 0}
+  rect: {fileID: 0}
+  loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &1581932328834749398
 GameObject:
   m_ObjectHideFlags: 0
@@ -483,6 +499,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194e1d8789a86524b900d1200b9db33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stockID: 0
+  owner: {fileID: 0}
+  rect: {fileID: 0}
+  loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &1677728549375477716
 GameObject:
   m_ObjectHideFlags: 0
@@ -571,6 +592,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194e1d8789a86524b900d1200b9db33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stockID: 0
+  owner: {fileID: 0}
+  rect: {fileID: 0}
+  loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &2277175489987354219
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,6 +685,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194e1d8789a86524b900d1200b9db33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stockID: 0
+  owner: {fileID: 0}
+  rect: {fileID: 0}
+  loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &2694951647936466794
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,6 +778,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194e1d8789a86524b900d1200b9db33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stockID: 0
+  owner: {fileID: 0}
+  rect: {fileID: 0}
+  loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &2830138677139975994
 GameObject:
   m_ObjectHideFlags: 0
@@ -835,6 +871,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194e1d8789a86524b900d1200b9db33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stockID: 0
+  owner: {fileID: 0}
+  rect: {fileID: 0}
+  loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &3298600401248456795
 GameObject:
   m_ObjectHideFlags: 0
@@ -923,6 +964,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194e1d8789a86524b900d1200b9db33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stockID: 0
+  owner: {fileID: 0}
+  rect: {fileID: 0}
+  loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &4207879881660330108
 GameObject:
   m_ObjectHideFlags: 0
@@ -1011,6 +1057,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194e1d8789a86524b900d1200b9db33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stockID: 0
+  owner: {fileID: 0}
+  rect: {fileID: 0}
+  loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &4341957913358104121
 GameObject:
   m_ObjectHideFlags: 0
@@ -1099,6 +1150,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194e1d8789a86524b900d1200b9db33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stockID: 0
+  owner: {fileID: 0}
+  rect: {fileID: 0}
+  loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &4352195950084964934
 GameObject:
   m_ObjectHideFlags: 0
@@ -1187,6 +1243,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194e1d8789a86524b900d1200b9db33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stockID: 0
+  owner: {fileID: 0}
+  rect: {fileID: 0}
+  loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &5002619927519601105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1275,6 +1336,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194e1d8789a86524b900d1200b9db33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stockID: 0
+  owner: {fileID: 0}
+  rect: {fileID: 0}
+  loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &5730000717626065295
 GameObject:
   m_ObjectHideFlags: 0
@@ -1363,6 +1429,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194e1d8789a86524b900d1200b9db33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stockID: 0
+  owner: {fileID: 0}
+  rect: {fileID: 0}
+  loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &5899601071139427940
 GameObject:
   m_ObjectHideFlags: 0
@@ -1451,6 +1522,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194e1d8789a86524b900d1200b9db33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stockID: 0
+  owner: {fileID: 0}
+  rect: {fileID: 0}
+  loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &7471523038611362180
 GameObject:
   m_ObjectHideFlags: 0
@@ -1539,6 +1615,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194e1d8789a86524b900d1200b9db33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stockID: 0
+  owner: {fileID: 0}
+  rect: {fileID: 0}
+  loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &8068190234339059561
 GameObject:
   m_ObjectHideFlags: 0
@@ -1627,6 +1708,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194e1d8789a86524b900d1200b9db33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stockID: 0
+  owner: {fileID: 0}
+  rect: {fileID: 0}
+  loadedCommodity: {fileID: 0}
+  highlighted: 1
 --- !u!1 &8247955166881811614
 GameObject:
   m_ObjectHideFlags: 0
@@ -1715,3 +1801,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194e1d8789a86524b900d1200b9db33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stockID: 0
+  owner: {fileID: 0}
+  rect: {fileID: 0}
+  loadedCommodity: {fileID: 0}
+  highlighted: 1

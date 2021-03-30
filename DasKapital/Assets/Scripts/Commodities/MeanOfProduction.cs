@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-public class MeanOfProduction : MonoBehaviour
+public class MeanOfProduction : UIOwner
 {
     public List<Commodity> loadedCommodities = new List<Commodity>();
     public List<UITarget> targets = new List<UITarget>();
     public UITarget productionTarget;
     public System.Action onCommodityProduced;
 
-    private void Start() {
+    private void Start() 
+    {
         foreach (UITarget target in targets)
         {
             target.onCommodityPlaced += (Commodity _commodity) => 

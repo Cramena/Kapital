@@ -8,6 +8,7 @@ public class CommoditiesService : MonoBehaviour
     public static CommoditiesService instance;
     public Commodity commodityPrefab;
     public CommoditySO plusValue;
+    public CommoditySO workforce;
     public List<Recipe> recipes = new List<Recipe>();
 
     private void Awake() 

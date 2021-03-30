@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TradingStock : MonoBehaviour
+public class TradingStock : UIOwner
 {
     public void GetCommodities(List<Commodity> _commodities)
     {

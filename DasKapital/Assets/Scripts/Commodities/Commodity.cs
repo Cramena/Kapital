@@ -20,7 +20,7 @@ public class Commodity : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
     public UITarget lastTarget;
     public UITarget target;
     public CommodityProfile profile;
-    private CommodityState state;
+    [HideInInspector] public CommodityState state;
     public int currentStock;
     public CommoditySO type;
     public CommodityBody body;
@@ -36,6 +36,7 @@ public class Commodity : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
     public float infoPanelTriggerDelay = 0.5f;
     private float infoPanelTriggerTimer;
     [HideInInspector] public bool hovering;
+    [HideInInspector] public bool draggable = true;
 
     private void Awake()
     {
@@ -46,6 +47,7 @@ public class Commodity : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
     public void InitializeProfile(CommoditySO _type)
     {
         type = _type;
+        profile.type = _type;
         profile.commodityName = type.commodityName;
         profile.exchangeValue = type.exchangeValue;
         profile.useValue = type.useValue;
@@ -149,16 +151,19 @@ public class Commodity : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
 
     public void OnDrag(PointerEventData pointerEventData)
     {
+        if (!draggable) return;
         rect.position = pointerEventData.position;
     }
 
     public void OnBeginDrag(PointerEventData pointerEventData)
     {
+        if (!draggable) return;
         state = CommodityState.Drag;
     }
 
     public void OnEndDrag(PointerEventData pointerEventData)
     {
+        if (!draggable) return;
         List<RaycastResult> results = new List<RaycastResult>();
 
         UIService.instance.graphicRaycatser.Raycast(pointerEventData, results);
